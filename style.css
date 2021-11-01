@@ -1,51 +1,100 @@
 header {
-    background-color: azure;
+    background-color: red;
+    align-items: baseline;
+    justify-content: center;
+    height: 80px;
+    font-family: sans-serif;
     display: flex;
     flex-direction: row;
+    border: black 2px solid;
 }
 
-header h1 {
-    margin-left: 10px;
+article {
+    align-items: baseline;
+    justify-content: center;
+    font-family: Calibri, sans-serif;
+    border: black 2px solid;
 }
 
-header form {
+.aside_links {
     text-align: center;
-    width: 100%;
-    padding: 10px;
-    margin-left: 100px;
-    flex: 1;
 }
 
-header nav ul {
-    list-style-type: none;
-    text-align: end;
-    margin-left: 400px;
-    width: 60%;
-    padding: 10px;
-}
-
-header nav ul li {
+article aside ul li {
     display: inline;
     padding: 1px;
     text-decoration: none;
 }
 
+.main-content {
+    text-align: center;
+}
+
+
+.header-title {
+    text-align: center;
+    flex: 1;
+    order: 2;
+}
+
+.header-links {
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+    flex: 1;
+    order: 3;
+}
+
+.header-link {
+    text-decoration: none;
+}
+
+table, th, td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+table {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.header-form {
+    list-style-type: none;
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    order: 1;
+    flex: 1;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 1px;
+}
+
 .footer-links {
     margin-left: 10px;
-    color: white;
+    color: black;
     text-align: left;
 }
 
 footer {
-    background-color: black;
-    color: white;
+    font-family: sans-serif;
+    background-color: red;
+    border: black 2px solid;
+    color: black;
     text-align: center;
+    justify-content: center;
 }
 
 footer ul li {
     display: list-item;
     padding: 1px;
     text-align: left;
+}
+
+.footer-link{
     text-decoration: none;
 }
 
