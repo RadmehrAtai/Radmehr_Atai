@@ -1,0 +1,51 @@
+header {
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+}
+
+header h1 {
+    margin-left: 10px;
+}
+
+header form {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin-left: 100px;
+    flex: 1;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: end;
+    margin-left: 400px;
+    width: 60%;
+    padding: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 1px;
+    text-decoration: none;
+}
+
+.footer-links {
+    margin-left: 10px;
+    color: white;
+    text-align: left;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer ul li {
+    display: list-item;
+    padding: 1px;
+    text-align: left;
+    text-decoration: none;
+}
+

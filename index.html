@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Artificial intelligence</title>
     <link rel="icon" href="Resources/favicon.ico">
+    <link rel="stylesheet" href="style.css">
     <meta name="keywords" content="AI, Artificial Intelligence, Machine, Intelligence, Robot">
     <meta name="description"
           content="Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural
@@ -14,21 +15,24 @@
 <body>
 
 <header>
-    <nav>
-        <ul>
-            <li><a href="#history">History</a></li>
-            <li><a href="#goals">Goals</a></li>
-            <li><a href="#tools">Tools</a></li>
-            <li><a href="#resources">Resources</a></li>
-            <li><a href="#videos">Videos</a></li>
-        </ul>
-    </nav>
-
-    <form>
-        <label for="psearch">Search:</label>
-        <input type="search" id="psearch" name="psearch">
-        <input type="submit" value="Submit">
-    </form>
+    <div style="order: 2">
+        <nav>
+            <ul>
+                <li><a href="#history">History</a></li>
+                <li><a href="#goals">Goals</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#videos">Videos</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div style="order: 1">
+        <form>
+            <label for="psearch">Search:</label>
+            <input type="search" id="psearch" name="psearch">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 
     <h1>Artificial intelligence</h1>
 </header>
@@ -180,10 +184,10 @@
 </div>
 <hr>
 <div>
-<h2 id="resources">Resources</h2>
-<ul>
-    <li><a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank"> Wikipedia </a></li>
-</ul>
+    <h2 id="resources">Resources</h2>
+    <ul>
+        <li><a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank"> Wikipedia </a></li>
+    </ul>
 </div>
 <hr>
 <h2 id="videos">Videos</h2>
@@ -194,7 +198,7 @@
 </section>
 <hr>
 
-<section style="text-align: justify; border-left: black">
+<section class="aside_links" style="text-align: justify; border-left: black">
     <h3>More Websites about AI</h3>
     <aside title="Check this website for more info about AI">
         <ul>
@@ -211,9 +215,16 @@
 <hr>
 
 <footer>
-    <a href="https://www.google.com">About Us</a> |
-    <a href="https://www.google.com">Privacy Policy</a>
-    <p><small>Author: Radmehr Atai <br>All rights reserved &copy;</small></p>
+    <div class="footer-links">
+        <h3>Our Links</h3>
+        <ul>
+            <li><a style="text-decoration: none" href="https://www.google.com" target="_blank">About Us</a></li>
+            <li><a href="https://www.google.com" target="_blank">Privacy Policy</a></li>
+        </ul>
+    </div>
+    <div class="footer_text">
+        <p><small>Author: Radmehr Atai <br>All rights reserved &copy;</small></p>
+    </div>
 </footer>
 
 </body>
