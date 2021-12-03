@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Artificial intelligence</title>
     <link rel="icon" href="Resources/Icons/favicon.ico">
     <link rel="stylesheet" href="style.css">
-    <script rel="script" defer src="darkmode.js"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script rel="script" defer src="dark_mode.js"></script>
+    <script src="scroll_to_top.js"></script>
     <meta name="keywords" content="AI, Artificial Intelligence, Machine, Intelligence, Robot">
     <meta name="description"
           content="Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural
@@ -15,7 +18,8 @@
 </head>
 <body>
 
-<button type="button" title="Toggle Dark Mode" onclick="darkMode()"> Dark Mode</button>
+<div id="scroll_to_top_container"></div>
+<button type="button" title="Toggle Dark Mode" onclick="dark_mode()"> Dark Mode</button>
 
 <div class="wrapper">
     <header>
