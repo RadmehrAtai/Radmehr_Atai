@@ -132,7 +132,7 @@ article {
     color: white;
 }
 
-body button {
+#dark-Mode {
     position: fixed;
     bottom: 8px;
     right: 16px;
@@ -149,7 +149,7 @@ body button {
     cursor: pointer;
 }
 
-#scroll_to_top_container {
+#scroll-To-Top {
     position: fixed;
     bottom: 8px;
     left: 16px;
