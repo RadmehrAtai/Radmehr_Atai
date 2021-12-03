@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Artificial intelligence</title>
     <link rel="icon" href="Resources/Icons/favicon.ico">
     <link rel="stylesheet" href="style.css">
-    <script rel="script" defer src="darkmode.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script rel="script" defer src="dark_mode.js"></script>
+    <script rel="script" defer src="scroll_to_top.js"></script>
     <meta name="keywords" content="AI, Artificial Intelligence, Machine, Intelligence, Robot">
     <meta name="description"
           content="Artificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural
@@ -15,13 +17,20 @@
 </head>
 <body>
 
-<button type="button" title="Toggle Dark Mode" onclick="darkMode()"> Dark Mode</button>
+<button id="scroll-To-Top" type="button" title="Toggle Scroll To Top" onclick="scroll_To_Top()"><img
+        src="https://img.icons8.com/ios-glyphs/50/000000/circled-up-2.png" alt="sc"/>
+</button>
 
 <div class="wrapper">
     <header>
         <div class="header-links">
             <nav>
                 <ul>
+                    <li>
+                        <button class="header-link" type="button" title="Toggle Dark Mode" onclick="dark_mode()">
+                            <img src="Resources/Icons/dark-mode-icon-20px.png" alt="dm">
+                        </button>
+                    </li>
                     <li><a class="header-link" href="#history">History</a></li>
                     <li><a class="header-link" href="#goals">Goals</a></li>
                     <li><a class="header-link" href="#tools">Tools</a></li>

@@ -94,7 +94,7 @@ article {
     padding-top: 20px;
 }
 
-.left-sidebar-links h3{
+.left-sidebar-links h3 {
     color: white;
 }
 
@@ -132,19 +132,12 @@ article {
     color: white;
 }
 
-body button {
+#scroll-To-Top {
     position: fixed;
+    border-radius: 150px;
+    background-color: deepskyblue;
     bottom: 8px;
     right: 16px;
-    background-color: cornflowerblue;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
     margin: 4px 2px;
     cursor: pointer;
 }
